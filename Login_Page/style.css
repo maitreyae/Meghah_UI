@@ -1,0 +1,143 @@
+body
+        {
+          /*  background-image: url("https://wallpapercave.com/wp/wp2755917.jpg");*/
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgb(193, 232, 248);
+        }
+        .Login
+        {
+            width: 50%;
+            height: fit-content;
+            text-align: center;
+            margin: 13% 25%;
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;;
+            background-color: white;
+        }
+        .Login img
+        {
+            width: 200px;
+            padding-top: 6%;
+            position: relative;
+        }
+        .container_main h1
+        {
+            color: rgb(54, 112, 238);
+            font-style: italic;
+            padding-top: 20px;
+            font-size: xx-large;
+            font-family: sans-serif;
+        }
+        .container_1 h5
+        {
+            color: #939598;
+            font-weight: 100;
+        }
+        .container_1
+        {
+            width: 50%;
+            padding: 0% 2%;
+            display: inline-block;
+            height: fit-content;
+            text-align: left;
+            align-items: inherit;
+            background-color: white;
+        }
+        .container_2
+        {
+            width: 50%;
+            height: fit-content;
+            padding: 0% 2%;
+            display: inline-block;
+            text-align: left;
+            background-color: white;
+        }
+        .container_2 .input_1
+        {
+            width: 100%;
+            padding: 0%;
+            display: flex;
+            box-sizing: border-box;
+            border-color: lightgray;
+            border-style: solid;
+            border-radius: 4px;
+            border-width: 1px;
+            position: relative;
+            text-align: center;
+        }
+        .input_1 input
+        {
+            outline: none;
+            padding: 4%;
+            width: 100%;
+            border: none;
+            border-radius: 2px;
+            background-color: transparent;
+        }
+
+        .input_1 input:hover{
+            outline: solid #97B4FF;
+        }
+
+       .container_1 .signin_g
+        {
+
+            width: 100%;
+            padding: 0%;
+            align-items: center;
+            display: flex;
+            box-sizing: border-box;
+            border-color: lightgray;
+            border-style: solid;
+            border-radius: 4px;
+            border-width: 1px;
+            position: relative;
+            text-align: center;
+            margin-top: 1%;
+        }
+        .signin_g h5,a
+        {
+            margin: 0%;
+            padding: 0%;
+            text-decoration: none;
+            font-weight: 200;
+            text-align: center;
+        }
+        .container
+        {
+            justify-content: baseline;
+            display: flex;
+        }
+        .abc
+        {
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .abc p{
+            color: #939598;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        .abc p:hover{
+            text-decoration: underline;
+        }
+        .container_2 button
+        {
+            display: flex;
+            background-color: #7fb5ff;
+            margin: 4%;
+            padding: 2% 5%;
+            border: none;
+            border-radius: 20px;
+            color: white;
+        }
+
+        .footer h5{
+            font-weight: 100;
+            text-align: center;
+            padding: 2% 0%;
+            background-color: #7fb5ff;
+            color: black;
+        }
